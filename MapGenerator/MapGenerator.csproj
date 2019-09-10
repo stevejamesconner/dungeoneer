@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <AssemblyName>Dungeoneer.MapGenerator</AssemblyName>
+        <RootNamespace>Dungeoneer.MapGenerator</RootNamespace>
+    </PropertyGroup>
+
+</Project>
