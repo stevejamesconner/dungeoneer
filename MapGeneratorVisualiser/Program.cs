@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Dungeoneer.MapGenerator;
 
 namespace MapGeneratorVisualiser
 {
@@ -6,7 +6,10 @@ namespace MapGeneratorVisualiser
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var mapConfiguration = new MapGeneratorConfiguration(244040, 50, 50, 2, 8, 20);
+            var mapGenerator = MapGeneratorFactory.Create(mapConfiguration);
+
+            var map = mapGenerator.CreateMap();
         }
     }
 }
