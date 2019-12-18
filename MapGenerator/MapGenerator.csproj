@@ -7,4 +7,13 @@
         <RootNamespace>Dungeoneer.MapGenerator</RootNamespace>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+      <OutputPath>..\UnityGame\Dungeoneer\Assets\Plugins\</OutputPath>
+      <DebugType>none</DebugType>
+      <PostBuildEvent>
+          del *.json
+      </PostBuildEvent>  
+    </PropertyGroup>
+
 </Project>

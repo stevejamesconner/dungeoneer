@@ -328,3 +328,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+UnityGame/Dungeoneer/Library/
+UnityGame/Dungeoneer/Temp/
+UnityGame/Dungeoneer/Assets/Plugins/Dungeoneer.MapGenerator.dll
