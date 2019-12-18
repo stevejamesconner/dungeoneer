@@ -62,7 +62,6 @@ StyleCopReport.xml
 *_p.c
 *_i.h
 *.ilk
-*.meta
 *.obj
 *.iobj
 *.pch
@@ -328,6 +327,8 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# Unity Stuff
 UnityGame/Dungeoneer/Library/
 UnityGame/Dungeoneer/Temp/
 UnityGame/Dungeoneer/Assets/Plugins/Dungeoneer.MapGenerator.dll
